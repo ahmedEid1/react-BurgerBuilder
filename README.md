@@ -18,3 +18,42 @@
 ----
 ## Components layout
 ![img.png](img.png)
+----
+## The State Plan
+- should manage the ingredients
+- purchased (true, false)
+  - did we check the burger out or not
+- total price
+
+- manage this state in the Burger builder component 
+-----
+- **the builder is a stateful component(container)**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
