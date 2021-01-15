@@ -17,7 +17,6 @@ const sideDrawer = (props) => {
                 <nav>
                     <NavItems/>
                 </nav>
-
             </div>
         </Fragment>
 

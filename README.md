@@ -1,33 +1,50 @@
-# Plan
-- Goal : users can add ingredients and build burgers 
-## UI
-## header (nav bar)
-- from here we can go to 
-    - orders
-    - burger builder
-- and we have a logo
----
-## Builder Page
-- preview of the burger we are building
-  - contains the price
-- controls (add and remove)
-    - meat
-    - salad 
-    - ...
-- checkout button
-----
-## Components layout
-![img.png](img.png)
-----
-## The State Plan
-- should manage the ingredients
-- purchased (true, false)
-  - did we check the burger out or not
-- total price
+# The Burger Builder
 
-- manage this state in the Burger builder component 
------
-- **the builder is a stateful component(container)**
+## App structure
+- starting point :
+  - index.html >>> .root >>> \<`App` \/> 
+---
+- App structure :
+  - `Layout`
+    - `Layout` children :
+      - `BurgerBuilder`
+  
+
+
+----
+### Layout :  
+- a higher order component that :
+  - wrap the current page to add the site structure around it
+    - site structure : 
+      - `Toolbar`
+      - `SideDrawer`
+      - `main` :
+        - the current page is embedded here (`props.children`)
+  #### Layout State :
+  - showSideDrawer 
+    - whether to open the SideDrawer or close it
+---
+## ToolBar :
+- ###### a navigation Component 
+    - ### ToolBar Structure :
+      - `DrawerToggle`
+      - `Logo`
+      - `NavItems`
+- the navItem appear in desktop only
+- rhe DrawerToggle mobile only
+      
+---
+## SideDrawer :
+- `BackDrop` on the background and sideDrawer div include :
+  - `Logo`
+  - `navItem`
+---
+### DrawToggle
+
+### Logo
+
+### NavItems
+
 
 
 
