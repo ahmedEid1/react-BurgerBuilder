@@ -37,13 +37,33 @@
 ## SideDrawer :
 - `BackDrop` on the background and sideDrawer div include :
   - `Logo`
-  - `navItem`
+  - `navItems`
 ---
 ### DrawToggle
+- in the toolbar
+- when clicked change the `showSideDrawer` in the layout state to true
+  - which open the side drawer
 
 ### Logo
+- used in the toolBar + the sideDrawer
+- has no state and affect no state
+  - visual component
 
 ### NavItems
+- inside the toolbar 
+  - have `Desktop only class`
+- consist of a list of `NavItem`
+
+### NavItem 
+- a lis item with a link inside it 
+
+###  BackDrop 
+- a background to the Checkout and the SideDrawer
+- when clicked remove the element in display 
+-------------------
+## BurgerBuilder
+
+
 
 
 
